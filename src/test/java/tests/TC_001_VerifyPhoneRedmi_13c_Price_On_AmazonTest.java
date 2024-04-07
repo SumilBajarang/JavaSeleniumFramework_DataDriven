@@ -18,7 +18,6 @@ public class TC_001_VerifyPhoneRedmi_13c_Price_On_AmazonTest extends BaseClass{
 		verifyTwoStringsAreEqual(selectedValue,"All Categories");
 		logger.info("Verified that default value is : All Categories");
 		homePage.selectDataFromCategoryDropdown("Electronics");
-		Assert.assertTrue(false);
 		selectedValue=homePage.getSelectedValueFromCategoryDropdown();
 		logger.info("Electronics selected from dropdown");
 		verifyTwoStringsAreEqual(selectedValue,"Electronics");
